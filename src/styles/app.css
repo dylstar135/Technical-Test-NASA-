@@ -1,1 +1,23 @@
+.app{
+    display:flex;
+   flex-direction: column;
+   height: 100vh;
+    background-color: slategray;
+}
 
+.Logo{
+    margin: auto;
+    width: 300px;
+    height: 500px;
+
+}
+
+.SearchBar{
+    margin: auto;
+    width: 20%;
+    height: 50px;
+    border-radius: 11px;
+    font-size: 20px;
+    padding: 0 10px;
+
+}
