@@ -8,8 +8,9 @@ const App = () => {
     <div className="app">
       <img src={nasalogo} 
       alt="nasa logo"
-       className="Logo"/>
-      <p> <Search/> </p>
+       className="Logo"
+       />
+      <Search/>
     </div>
   );
 }

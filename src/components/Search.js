@@ -3,9 +3,9 @@ import "../styles/search.css";
 
 function Search(props) {
     return(
-    <Fragment>
-    <input type="text" className='SearchBar'/>
-    </Fragment>
+    <>
+    <input className="search-input" type ="text"/>
+    </>
     );
 };
 

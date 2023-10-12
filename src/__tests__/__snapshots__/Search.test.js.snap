@@ -3,7 +3,7 @@
 exports[`Search renders correctly 1`] = `
 <DocumentFragment>
   <input
-    class="SearchBar"
+    class="search-input"
     type="text"
   />
 </DocumentFragment>
