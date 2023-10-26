@@ -10,15 +10,21 @@ const App = () => {
 
   return (
     <div className="app">
-      <img src={nasalogo} 
-      alt="nasa logo"
-       className="Logo"
-       />
-      <Search setSearchResults={setSearchResults}/>
-      <SearchResults searchResults = {searchResults}/>
+      <img
+        src={nasalogo}
+        alt="nasa logo"
+        className="Logo"
+      />
+      <Search setSearchResults={setSearchResults} />
+      <header className="fixed-header"></header>
+      <main className="scrollable-content">
+        
+          <SearchResults searchResults={searchResults} />
+      
+      </main>
+      <footer className="fixed-footer"></footer>
     </div>
-    
   );
-}
+};
 
 export default App;
