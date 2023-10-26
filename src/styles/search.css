@@ -1,8 +1,18 @@
-.search-input{
+.search-form {
+  display:flex;
+  justify-content: center;
     margin: auto;
     width: 20%;
     height: 50px;
     border-radius: 11px;
     font-size: 20px;
     padding: 0 10px;
-}
+  }
+
+  .search-input{
+    border-radius: 5px;
+  }
+
+  .search-btn{
+    border-radius: 5px;
+  }
