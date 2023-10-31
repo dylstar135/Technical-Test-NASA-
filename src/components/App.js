@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import"../styles/global-styles.css";
 import "../styles/app.css";
 import Search from "../components/Search";
-import nasalogo from "/home/dylstar/tech-test/src/assets/nasalogo.jpeg"
+import nasalogo from "/home/dylstar/tech-test/src/assets/pngwing.com.png";
 import SearchResults from "./SearchResults";
 
 const App = () => {
