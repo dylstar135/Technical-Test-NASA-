@@ -6,6 +6,9 @@ import nasalogo from "/home/dylstar/tech-test/src/assets/pngwing.com.png";
 import SearchResults from "./SearchResults";
 
 const App = () => {
+  const handleLogoClick = () => {
+    window.location.reload();
+  };
   const [searchResults, setSearchResults] = useState([]);
 
   return (
@@ -14,6 +17,7 @@ const App = () => {
         src={nasalogo}
         alt="nasa logo"
         className="Logo"
+        onClick={handleLogoClick}
       />
       <Search setSearchResults={setSearchResults} />
       <header className="fixed-header"></header>
